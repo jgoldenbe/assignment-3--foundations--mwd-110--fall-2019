@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Jomolhari&display=swap');
 
+/**********Presets**********/
 * {
   padding: 0px;
   margin: 0px;
@@ -20,11 +21,31 @@ body {
   line-height: 30px;
 }
 
+.name {
+  padding-bottom: 20px;
+}
+/**********Presets End**********/
+
+
+/**********Main**********/
 main {
   height: 500px;
   text-align: center;
 }
 
+main a {
+  padding: 20px;
+  transition-duration: 0.4s;
+}
+
+main a:hover {
+  background-color: #fff;
+  color: black;
+}
+/**********Main End**********/
+
+
+/**********Navigation**********/
 nav {
   position: absolute;
   width: 100%;
@@ -47,6 +68,19 @@ nav li {
   padding: 20px 0px;
 }
 
+nav a {
+  padding: 26px 20px;
+  transition-duration: 0.4s;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: black;
+}
+/**********Navigation End**********/
+
+
+/**********Hero**********/
 #bgHero {
   width: 100%;
 }
@@ -55,27 +89,10 @@ nav li {
   width: 100%;
   background-size: cover;
 }
+/**********Hero End**********/
 
-nav a {
-  padding: 20px;
-  transition-duration: 0.4s;
-}
 
-nav a:hover {
-  background-color: #fff;
-  color: black;
-}
-
-main a {
-  padding: 20px;
-  transition-duration: 0.4s;
-}
-
-main a:hover {
-  background-color: #fff;
-  color: black;
-}
-
+/**********About Me**********/
 #aboutImg {
   border: #6e4b4b;
   border-width: 10px;
@@ -89,14 +106,12 @@ main a:hover {
 }
 
 .description {
-  padding: 0px 35px;
-  padding-bottom: 20px;
+  padding: 0px 35px 20px;
 }
+/**********About Me End**********/
 
-.name {
-  padding-bottom: 20px;
-}
 
+/**********Contact**********/
 .nameContact {
   margin-top: 20px;
 }
@@ -113,3 +128,4 @@ main a:hover {
   padding-top: 15px;
   padding-bottom: 25px;
 }
+/**********Contact End**********/

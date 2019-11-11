@@ -38,6 +38,8 @@ main {
 main a {
    padding: 20px;
    transition-duration: .4s;
+   background-color: black;
+   color: white;
 }
 
 main a:hover {

@@ -1,131 +1,130 @@
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Jomolhari&display=swap');
-
 /**********Presets**********/
 * {
-  padding: 0px;
-  margin: 0px;
-  color: #fff;
-  text-decoration: none;
-  list-style: none;
-  font-family: 'Big Shoulders Text', cursive;
-  letter-spacing: 2px;
+   padding: 0;
+   margin: 0;
+   color: #ffff;
+   list-style: none;
+   text-decoration: none;
+   font-family: 'Big Shoulders Text', cursive;
+   letter-spacing: 2px;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Jomolhari', serif;
-  letter-spacing: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: Jomolhari, serif;
+   letter-spacing: normal;
 }
 
 body {
-  background-color: #344761;
-  line-height: 30px;
+   background-color: #344761;
+   line-height: 30px;
 }
 
 .name {
-  padding-bottom: 20px;
+   padding-bottom: 20px;
 }
+
 /**********Presets End**********/
-
-
 /**********Main**********/
 main {
-  height: 500px;
-  text-align: center;
+   height: 500px;
+   text-align: center;
 }
 
 main a {
-  padding: 20px;
-  transition-duration: 0.4s;
+   padding: 20px;
+   transition-duration: .4s;
 }
 
 main a:hover {
-  background-color: #fff;
-  color: black;
+   background-color: #fff;
+   color: black;
 }
+
 /**********Main End**********/
-
-
 /**********Navigation**********/
 nav {
-  position: absolute;
-  width: 100%;
-  background-color: black;
-  opacity: 0.8;
+   position: absolute;
+   width: 100%;
+   background-color: black;
+   opacity: .8;
 }
 
 .otherNav {
-  position: static;
+   position: static;
 }
 
 nav ul {
-  display: flex;
-  flex-direction: row;
-  align-self: flex-end;
-  justify-content: flex-end;
+   display: flex;
+   flex-direction: row;
+   align-self: flex-end;
+   justify-content: flex-end;
 }
 
 nav li {
-  padding: 20px 0px;
+   padding: 20px 0;
 }
 
 nav a {
-  padding: 26px 20px;
-  transition-duration: 0.4s;
+   padding: 26px 20px;
+   transition-duration: .4s;
 }
 
 nav a:hover {
-  background-color: #fff;
-  color: black;
+   background-color: #fff;
+   color: black;
 }
+
 /**********Navigation End**********/
-
-
 /**********Hero**********/
 #bgHero {
-  width: 100%;
+   width: 100%;
 }
 
 #hero {
-  width: 100%;
-  background-size: cover;
+   width: 100%;
+   background-size: cover;
 }
+
 /**********Hero End**********/
-
-
 /**********About Me**********/
 #aboutImg {
-  border: #6e4b4b;
-  border-width: 10px;
-  border-style: solid;
-  width: 500px;
+   border: #6e4b4b;
+   border-width: 10px;
+   border-style: solid;
+   width: 500px;
 }
 
 .imgDiv {
-  padding: 20px;
-  text-align: center;
+   padding: 20px;
+   text-align: center;
 }
 
 .description {
-  padding: 0px 35px 20px;
+   padding: 0 35px 20px;
 }
+
 /**********About Me End**********/
-
-
 /**********Contact**********/
 .nameContact {
-  margin-top: 20px;
+   margin-top: 20px;
 }
 
 #socialMedia {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 #email {
-  padding-top: 15px;
-  padding-bottom: 25px;
+   padding-top: 15px;
+   padding-bottom: 25px;
 }
+
 /**********Contact End**********/
